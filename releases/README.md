@@ -15,9 +15,9 @@ Full node sync for this version completed in 26 hours with default settings whic
 
 ### Data
 ```bash
-Date: 2022-08-08
-Time: 13:04:06 PST
-Height: 811249
+Start Date: 2022-08-08
+Start Time: 13:04:06 PST
+Start Height: 811249
 ```
 
 | Config | Duration | Memory |
