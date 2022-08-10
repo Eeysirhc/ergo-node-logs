@@ -1,7 +1,5 @@
 # ergo-rpi-node-logs
 
-## Context
-
 > Work in progress
 
 The Ergo node completes a full sync in 3 separate stages: `headers`, `node`, and `wallet`.
@@ -22,8 +20,10 @@ Enter your `node IP address` and `node logs directory` when prompted.
 
 ### Compute results
 
-You'll need the [R](https://www.r-project.org/) statistical computing language and a few packages: `tidyverse`, `lubridate`, `scales`.
+You'll need the [R](https://www.r-project.org/) statistical computing language and a few packages: `tidyverse`, `lubridate`, `scales`, `data.table`.
 
 ```r
 Rscript logs-comparo.R 
 ```
+
+

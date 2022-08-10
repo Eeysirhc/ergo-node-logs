@@ -1,6 +1,6 @@
 # Releases
 
-## Hardware setup
+### Hardware setup
 
 * Raspberry Pi 4 with 4gb RAM
 * RPi OS Lite (64-bit)
@@ -13,8 +13,8 @@ Full node sync for this version completed in 26 hours with default settings whic
 
 ![](../img/results-4.0.37.png)
 
-### Data
-```bash
+### Metadata
+```
 Start Date: 2022-08-08
 Start Time: 13:04:06 PST
 Start Height: 811249
