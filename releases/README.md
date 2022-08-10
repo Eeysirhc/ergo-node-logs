@@ -13,17 +13,17 @@ Full node sync for this version completed in 26 hours with default settings whic
 
 ![](../img/results-4.0.37.png)
 
+### Data
 ```bash
-# start data
 Date: 2022-08-08
 Time: 13:04:06 PST
 Height: 811249
 ```
 
-| Config | Node Sync | GB usage |
+| Config | Duration | Memory |
 | --- | --- | --- | 
-| default | 26h | 20.9 |
-| swapsize | 29h | 21.1 | 
+| default | 26h | 20.9gb |
+| swapsize | 29h | 21.1gb | 
 
 ## 4.0.35 
 
@@ -31,9 +31,9 @@ Height: 811249
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | RPi4-4gb | 256gb | - | 2 | 2.25h | 46h | 13h | 2.6 days | 
 
-
 ## 4.0.27
 | Unit | MicroSD | SWAP config | Crashes | Headers | Node | Wallet | Total | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | RPi4-4gb | 256gb | yes | - | 1h | 30h | 5h | 1.5 days | 
 | RPi4-4gb | 32gb | yes | 4 | 3h | 90h | 15h | 4.5 days | 
+
