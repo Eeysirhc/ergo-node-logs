@@ -9,20 +9,21 @@
 
 ## 4.0.37
 
-```
+Full node sync for this version completed in 26 hours with default settings which is a significant improvement to v4.0.35 of 46 hours.
+
+![](../img/results-4.0.37.png)
+
+```bash
+# start data
 Date: 2022-08-08
 Time: 13:04:06 PST
-Block Height: 811249
+Height: 811249
 ```
 
 | Config | Node Sync | GB usage |
 | --- | --- | --- | 
 | default | 26h | 20.9 |
 | swapsize | 29h | 21.1 | 
-
-Full node sync for this version completed in 26 hours with default settings which is a significant improvement to v4.0.35 of [46 hours](https://github.com/Eeysirhc/ergo-rpi-node-logs/tree/main/releases#4035).
-
-![](../img/results-4.0.37.png)
 
 ## 4.0.35 
 
@@ -36,4 +37,3 @@ Full node sync for this version completed in 26 hours with default settings whic
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | RPi4-4gb | 256gb | yes | - | 1h | 30h | 5h | 1.5 days | 
 | RPi4-4gb | 32gb | yes | 4 | 3h | 90h | 15h | 4.5 days | 
-
