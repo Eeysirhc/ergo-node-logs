@@ -22,8 +22,8 @@ Start Height: 811249
 
 | Config | Duration | Memory |
 | --- | --- | --- | 
-| default | 26h | 20.9gb |
-| swapsize | 29h | 21.1gb | 
+| default | 26 hrs | 20.9 GB |
+| swapsize | 29 hrs | 21.1 GB | 
 
 ## 4.0.35 
 

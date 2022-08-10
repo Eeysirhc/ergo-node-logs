@@ -1,10 +1,10 @@
 # ergo-rpi-node-logs
 
-> Work in progress
-
 The Ergo node completes a full sync in 3 separate stages: `headers`, `node`, and `wallet`.
 
 Since the node sync phase is the most time consuming part of the process, the goal of this repo is to track and compare node sync durations over time. With this data we can benchmark each version, estimate time to sync for an RPi, identify optimal configurations, shed light on issues, and more. 
+
+> Note: this is a companion repo to the primary [ergo-rpi](https://github.com/Eeysirhc/ergo-rpi) setup guides.
 
 ## DIY analysis
 
