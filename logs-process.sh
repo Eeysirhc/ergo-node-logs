@@ -1,14 +1,5 @@
 #!/bin/bash
 
-echo "Enter node IP address:"
-read NODE
-
-echo "Enter logs directory:"
-read LOGSPATH
-
-# download data 
-scp pi@$NODE:$LOGSPATH\*.log\* .
-
 # unzip files
 gunzip *.log.gz
 
@@ -18,7 +9,6 @@ grep "applied to UtxoState at height" *.log | awk '{print $1, $20}' | sed 's/.lo
 
 # remove raw files
 rm *.log
-
 
 
 

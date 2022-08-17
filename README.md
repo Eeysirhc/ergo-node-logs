@@ -8,15 +8,21 @@ Since the node sync phase is the most time consuming part of the process, the go
 
 ## DIY analysis
 
-### Retrieve & process log files
+### Optional: retrieve log files
 
-> Self note: break out bash script 1) retrieve and 2) process
+Use this if you are running headless RPi.
 
 ```bash
-bash runner-logs.sh 
+bash logs-get.sh
 ```
 
 Enter your `node IP address` and `node logs directory` when prompted.
+
+### Process log files 
+
+```bash
+bash logs-process.sh
+```
 
 ### Compute results
 
@@ -26,4 +32,4 @@ You'll need the [R](https://www.r-project.org/) statistical computing language a
 Rscript logs-comparo.R 
 ```
 
-
+The `.png` file is dropped into the `/img` folder.
