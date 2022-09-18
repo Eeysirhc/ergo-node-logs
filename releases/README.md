@@ -7,6 +7,19 @@
 * 256gb MicroSD
 * Ethernet connection
 
+## 4.0.43
+
+### Metadata
+```
+Start Date: 2022-09-18
+Start Time: 02:12:57 PST
+Start Height: 842339
+```
+
+| Config | Duration | Memory | 
+| --- | --- | --- | 
+| default | - hrs | - GB | 
+
 ## 4.0.37
 
 Full node sync for this version completed in 26 hours with default settings which is a significant improvement to v4.0.35 of 46 hours.
@@ -36,4 +49,6 @@ Start Height: 811249
 | --- | --- | --- | --- | --- | --- | --- | --- | 
 | RPi4-4gb | 256gb | yes | - | 1h | 30h | 5h | 1.5 days | 
 | RPi4-4gb | 32gb | yes | 4 | 3h | 90h | 15h | 4.5 days | 
+
+
 

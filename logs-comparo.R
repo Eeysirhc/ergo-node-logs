@@ -46,20 +46,24 @@ p <- df_final %>%
   ggplot(aes(hour_standardized, block_height, color = filename)) +
   geom_line(size = 1) +
   geom_point(size = 3) +
-  geom_hline(yintercept = 813000, lty = 2) +
+  geom_hline(yintercept = 850000, lty = 2) +
   scale_y_continuous(labels = comma_format()) +
   scale_color_brewer(palette = 'Set1') +
   labs(x = "Node Sync Hour",
        y = NULL,
        color = NULL,
-       title = "ergo-rpi: 4.0.37 release comparison",
-       subtitle = "Dotted line with block height of 813000") +
+       title = "ergo-rpi: 4.0.43 release",
+       subtitle = "Dotted line with block height of 850000") +
   theme_bw(base_size = 15) +
   theme(legend.position = 'top')
 
 # save graph
-ggsave("img/results-4.0.37.png",
+ggsave("img/results-4.0.43.png",
        plot = p,
        width = 18,
        height = 12,
        dpi = 300)
+
+
+
+
