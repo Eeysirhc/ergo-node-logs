@@ -9,7 +9,7 @@
 
 ## 4.0.43
 
-Full node sync completed in 36 hours with default settings which is an increase from the last comparison of 4.0.35 at 26 hours.
+Full node sync completed in 36 hours with default settings which is an increase from the last comparison of 4.0.37 at 26 hours.
 
 ![](../img/results-4.0.43.png)
 
