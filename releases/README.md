@@ -9,6 +9,10 @@
 
 ## 4.0.43
 
+Full node sync completed in 36 hours with default settings which is an increase from the last comparison of 4.0.35 at 26 hours.
+
+![](../img/results-4.0.43.png)
+
 ### Metadata
 ```
 Start Date: 2022-09-18
@@ -18,7 +22,7 @@ Start Height: 842339
 
 | Config | Duration | Memory | 
 | --- | --- | --- | 
-| default | - hrs | - GB | 
+| default | 36 hrs | 25 GB | 
 
 ## 4.0.37
 
