@@ -20,7 +20,7 @@ df_raw <- map(files, read.table, sep='', header = FALSE) %>%
 df <- df_raw %>%
   mutate(
     # extract date from logs filepath then text cleanup
-    sync_date = str_extract(logfile, "2022-.*-*\\."),
+    sync_date = str_extract(logfile, "2023-.*-*\\."),
     sync_date = gsub("\\.", "", sync_date),
     sync_date = ymd(sync_date),
     # if empty mark as today's date
@@ -46,19 +46,19 @@ p <- df_final %>%
   ggplot(aes(hour_standardized, block_height, color = filename)) +
   geom_line(size = 1) +
   geom_point(size = 3) +
-  geom_hline(yintercept = 850000, lty = 2) +
+  geom_hline(yintercept = 1060000, lty = 2) +
   scale_y_continuous(labels = comma_format()) +
   scale_color_brewer(palette = 'Set1') +
   labs(x = "Node Sync Hour",
        y = NULL,
        color = NULL,
-       title = "ergo-rpi: 4.0.43 release",
-       subtitle = "Dotted line with block height of 850000") +
+       title = "ergo-rpi: 5.0.13 release",
+       subtitle = "Dotted line with block height of 1060000") +
   theme_bw(base_size = 15) +
   theme(legend.position = 'top')
 
 # save graph
-ggsave("img/results-4.0.43.png",
+ggsave("img/results-5.0.13.png",
        plot = p,
        width = 18,
        height = 12,

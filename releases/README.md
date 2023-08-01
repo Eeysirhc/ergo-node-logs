@@ -7,6 +7,23 @@
 * 256gb MicroSD
 * Ethernet connection
 
+## 5.0.13
+
+Full NiPoPow node sync completed in 2.5 minutes with default settings - a dramatic improvement compared to one year ago.
+
+![](../img/results-5.0.13.png)
+
+### Metadata
+```
+Start Date: 2023-08-01
+Start Time: 07:09:31 PST
+Start Height: 1,059,660
+```
+
+| Config | Duration | Memory | 
+| --- | --- | --- | 
+| default | 2.5 mins | 0.30 GB | 
+
 ## 4.0.43
 
 Full node sync completed in 36 hours with default settings which is an increase from the last comparison of 4.0.37 at 26 hours.
